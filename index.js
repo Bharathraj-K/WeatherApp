@@ -8,12 +8,14 @@ const app = new express();
 const api_url = "https://api.openweathermap.org/data/2.5/weather";
 const api_key = process.env.API_KEY;
 
+const PORT = process.env.PORT || 3000;
+
 app.use(express.static("public"));
 
 app.use(bodyParser.urlencoded({extended:true}));
 
 
-app.listen(3000,(req,res)=>{
+app.listen(PORT,(req,res)=>{
     console.log("server running at port: 3000");
 })
 
