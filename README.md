@@ -60,6 +60,14 @@ Environment variable `API_KEY` was securely added using Render’s **Environment
 
 ---
 
+## 🛠️ Tech Stack
+
+- **EJS** – templating engine
+- **HTML + CSS** – frontend layout and styling
+- **Express.js (Node.js)** – backend server framework
+
+---
+
 ## 📄 License
 
 This project is open-source and free to use.
